@@ -1,0 +1,279 @@
+\documentclass{article}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{blindtext}
+\usepackage{titlesec}
+
+\setlength{\parindent}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.8in}
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{18pt}
+
+\title{CheatSheet INF102}
+\author{Erik Fjelltveit Nyhuus}
+\date{November 2024}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+% Add binary search algorithm, the two variants. Recurrsion and iterative.
+% List of the different sorting algorithems and there sudocode. There usecaese. 
+% How to use Collections.sort() Comparator, Comparable.
+% Quickselect, better understanding. 
+% Exapmle code.
+% Priorityqueue, how does it work, where should you use it. What are the implementations.
+% Added usefull code from labs to download. 
+
+\section{Search Algorithms}
+\subsection{Selection sort}
+Time Complexity = $O(n^2)$\\
+Sorts an array by repeatedly selecting the smallest or largest element from the unsorted portion
+and swapping it with the first unsorted element. 
+\subsection{Insertion sort}
+\subsection{Bubble sort}
+\subsection{Shell sort}
+\subsection{Quick sort}
+\subsection{Merge sort}
+\subsection{Bucket sort}
+\subsection{Radix sort}
+
+\section{ArrayList vs. LinkedList}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Operation} & \textbf{ArrayList} & \textbf{LinkedList} \\
+\hline
+size() & O(1) & O(1) \\
+\hline
+add() & O(n)* & O(1) \\
+\hline
+contains(obj) & O(n) & O(n) \\
+\hline
+remove(obj) & O(n) & O(n) \\
+\hline
+toArray() & O(n) & O(n) \\
+\hline
+indexOf(obj) & O(n) & O(n) \\
+\hline
+get(int i) & O(1) & O(n) \\
+\hline
+set(int i, E e) & O(1) & O(n) \\
+\hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+  \item *O(1) in amortized time (when resizing is not needed)
+\end{itemize}
+
+
+\section{ArrayList vs. LinkedList (Queue/Stack)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+& \textbf{ArrayList} & & \textbf{LinkedList} & \\
+\hline
+& \textbf{Queue} & \textbf{Stack} & \textbf{Queue} & \textbf{Stack} \\
+\hline
+offer / push & O(n) & O(n)* & O(1) & O(1) \\
+\hline
+poll / pop & O(1) & O(1) & O(1) & O(1) \\
+\hline
+peek & O(1) & O(1) & O(1) & O(1) \\
+\hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+  \item *O(1) in amortized time (when resizing is not needed)
+\end{itemize}
+
+\section{PriorityQueue}
+\subsection{PriorityQueue - SortedList}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Operation} & \textbf{Time Complexity} \\
+\hline
+add(T element) & O(n) \\
+\hline
+T findMin() & O(1) \\
+\hline
+T removeMin() & O(1) \\
+\hline
+\end{tabular}
+\end{table}
+\subsection{PriorityQueue - LinkedList}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Operation} & \textbf{Time Complexity} \\
+\hline
+add(T element) & O(1) \\
+\hline
+T findMin() & O(n) \\
+\hline
+T removeMin() & O(n) \\
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+
+
+\section{HashSet vs. TreeSet}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Operation} & \textbf{HashSet} & \textbf{TreeSet} \\
+\hline
+add() & O(1)* & O(log(n)) \\
+\hline
+remove() & O(1)* & O(log(n)) \\
+\hline
+contains(obj) & O(1)* & O(log(n)) \\
+\hline
+findMin & O(n) & O(log(n))\\
+\hline
+findMax & O(n) & O(log(n))\\
+\hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+  \item *HashSet har O(1) i snitt, men O(n) i worst case
+\end{itemize}
+
+
+
+\section{Heap runtime}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Operation} & \textbf{Time Complexity} \\
+\hline
+add(T element) & O(log(n)) \\
+\hline
+T peekMin() & O(1) \\
+\hline
+T removeMin() & O(log(n)) \\
+\hline
+Construct heap & O(n) \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Graph Datastructures}
+\subsection{Adjacency Set}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Metode} & \textbf{Kjøretid} \\
+\hline
+Adjacent & O(1)* \\
+\hline
+Vertices & O(1) \\
+\hline
+Edges & O(M) \\
+\hline
+Neighbours & O(1)* \\
+\hline
+AddVertex & O(1)* \\
+\hline
+AddEdge & O(1)* \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+\subsection{Adjacency List}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Method} & \textbf{Runtime} \\
+\hline
+Adjacent & O(degree) \\
+\hline
+Vertices & O(1) \\
+\hline
+Edges & O(M) \\
+\hline
+Neighbours & O(1)* \\
+\hline
+addVertex & O(N) \\
+\hline
+addEdge & O(degree) \\
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+
+\subsection{Adjacency Matrix}
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Method} & \textbf{Runtime} \\
+\hline
+Adjacent & $O(1)$ \\
+\hline
+Vertices & $O(1)$ \\
+\hline
+Edges & $O(N^2)$ \\
+\hline
+Neighbours & $O(N)$ \\
+\hline 
+addVertex & $O(N^2)$ or $O(N)$ \\
+\hline
+addEdge & $O(1)$ \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\section{Summary of Graph Algorithms}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Algorithm} & \textbf{Graph Type} & \textbf{Time Complexity} \\
+\hline
+BFS & Unweighted & \( O(m + n) \) \\
+\hline
+DFS & Unweighted & \( O(m + n) \)\\
+\hline
+Dijkstra & Positive weights & \( O(m \log m) \) \\
+\hline
+Bellman-Ford & Negative weights, no negative cycle & \( O(n \cdot m) \) \\
+\hline
+Brute-Force & Negative weights & \( 2^{O(n)} \) \\
+\hline
+$A^*$ &Weighted& $mlog( n )$ \\
+\hline
+Kruskal's &Weighted& \( O(m \log n) \) \\
+\hline
+Prim's  &Weighted& \( O(m \log n) \) \\
+\hline
+Union-Find  && \( O(m \log n)^* \) \\
+\hline
+\end{tabular}
+\caption{Summary of Graph Algorithms}
+\end{table}
+
+
+\end{document}
