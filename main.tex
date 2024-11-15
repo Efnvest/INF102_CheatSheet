@@ -32,7 +32,7 @@
 % Priorityqueue, how does it work, where should you use it. What are the implementations.
 % Added usefull code from labs to download. 
 
-\section{Search Algorithms}
+\section{Sorting Algorithms}
 \subsection{Selection sort}
 Time Complexity = $O(n^2)$\\
 Sorts an array by repeatedly selecting the smallest or largest element from the unsorted portion
@@ -51,10 +51,14 @@ Worst Case = $O(n^2)$ Occures with poor pivot.\\
 Average Case = $\theta(nlog(n))$\\
 Based on divide and conquer, picks an element that is used as a pivot and partitions the array by moving all elements
 greater then pivot to the right of pivot and elements less than pivot on the left side. Calls the same algorithm to the know two sub-arrays and repeats the process.
-% ADD More
+% add more
 \subsection{Merge sort}
-
+Average Case = $(nlog(n))$\\
+Divide the list into two smaller sublists, continues on dividing until list has size 1. Merges each of the smaller lists in correct order until everything is sorted. 
 \subsection{Bucket sort}
+Average Case = $(nlog(n))$\\
+Worsk if you have repeated elements in a list. Adds elements into different groups based on size. Sort each bucket on it own afterwards. 
+
 \subsection{Radix sort}
 
 \section{ArrayList vs. LinkedList}
@@ -186,7 +190,32 @@ Construct heap & O(n) \\
 \end{tabular}
 \end{table}
 
+
 \section{Graph Datastructures}
+\subsection{EdgeList}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Metode} & \textbf{Kjøretid} \\
+\hline
+Adjacent & O(M)* \\
+\hline
+Vertices & O(M) \\
+\hline
+Edges & O(N) \\
+\hline
+Neighbours & O(M)* \\
+\hline
+AddVertex & O(1)* \\
+\hline
+AddEdge & O(1)* \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
 \subsection{Adjacency Set}
 \begin{table}[h!]
 \centering
@@ -208,7 +237,6 @@ AddEdge & O(1)* \\
 \hline
 \end{tabular}
 \end{table}
-
 
 
 \subsection{Adjacency List}
