@@ -49,22 +49,25 @@ this process until it has a pass with know swaps.
 \subsection{Quick sort}
 Worst Case = $O(n^2)$ Occures with poor pivot.\\ 
 Average Case = $\theta(nlog(n))$\\
-Based on divide and conquer, picks an element that is used as a pivot and partitions the array by moving all elements
-greater then pivot to the right of pivot and elements less than pivot on the left side. Calls the same algorithm to the know two sub-arrays and repeats the process.
-% add more
+Based on divide and conquer. Quick sort chooses a random pivot P, and swaps P with the last element. Two pointer, left bound and right bound points to index 0 and n - 1.
+Left bound moves to the right until it hits an element $\geq P$ or crosses the right bound. Right bound does the samle until i finds an element $\leq P$. 
+Swap elements that right and left bound points to. Continue this process until either they crosses, this indicates that all elements smaler than $P$ is on the left and larger are one the right.
+The last element right or left bound points to swap places with pivot. Since pivot was left at the end in first step. 
+Repeat this with left and right sub-list.  
 \subsection{Merge sort}
 Average Case = $(nlog(n))$\\
 Divide the list into two smaller sublists, continues on dividing until list has size 1. Merges each of the smaller lists in correct order until everything is sorted. 
 \subsection{Bucket sort}
 Average Case = $(nlog(n))$\\
-Worsk if you have repeated elements in a list. Adds elements into different groups based on size. Sort each bucket on it own afterwards. 
+Works if you have repeated elements in a list. Adds elements into different groups based on size. Sort each bucket on it own afterwards. 
 
 \subsection{Radix sort}
+
 
 \newpage
 
 \section{ArrayList vs. LinkedList}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|c|}
 \hline
@@ -94,7 +97,7 @@ set(int i, E e) & O(1) & O(n) \\
 
 
 \section{ArrayList vs. LinkedList (Queue/Stack)}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|c|c|c|}
 \hline
@@ -117,7 +120,7 @@ peek & O(1) & O(1) & O(1) & O(1) \\
 \section{PriorityQueue}
 
 \subsection{PriorityQueue}
-\begin{table}[h!]
+\begin{table}[!ht]
   \centering
   \begin{tabular}{|l|c|}
   \hline
@@ -139,7 +142,7 @@ peek & O(1) & O(1) & O(1) & O(1) \\
   \end{table}
 
 \subsection{PriorityQueue - SortedList}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|}
 \hline
@@ -154,7 +157,7 @@ T removeMin() & O(1) \\
 \end{tabular}
 \end{table}
 \subsection{PriorityQueue - LinkedList}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|}
 \hline
@@ -173,7 +176,7 @@ T removeMin() & O(n) \\
 
 
 \section{HashSet vs. TreeSet}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|c|}
 \hline
@@ -197,8 +200,9 @@ findMax & O(n) & O(log(n))\\
 
 
 
-\section{Heap runtime}
-\begin{table}[h!]
+\section{Heap}
+
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|}
 \hline
@@ -212,13 +216,15 @@ T removeMin() & O(log(n)) \\
 \hline
 Construct heap & O(n) \\
 \hline
+delete() & O(log(n)) \\
+\hline
 \end{tabular}
 \end{table}
 
 
 \section{Graph Datastructures}
 \subsection{EdgeList}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|}
 \hline
@@ -242,7 +248,7 @@ AddEdge & O(1)* \\
 
 
 \subsection{Adjacency Set}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|}
 \hline
@@ -265,7 +271,7 @@ AddEdge & O(1)* \\
 
 
 \subsection{Adjacency List}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|l|c|}
 \hline
@@ -312,7 +318,7 @@ addEdge & $O(1)$ \\
 
 
 \section{Summary of Graph Algorithms}
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
 \begin{tabular}{|c|c|c|}
 \hline
@@ -341,4 +347,24 @@ Union-Find  && \( O(m \log n)^* \) \\
 \end{table}
 
 
+
+\section{Images}
+\begin{figure}[!ht]
+  \includegraphics[width=\linewidth]{Images/BigO_Chart.png}
+  \label{fig:Chart}
+\end{figure}
+
+\begin{figure}[!ht]
+  \includegraphics[width=\linewidth]{Images/DataStrucOpt.png}
+  \label{fig:Chart2}
+\end{figure}
+
+\begin{figure}[!ht]
+  \includegraphics[width=\linewidth]{Images/ArraySortAlg.png}
+  \label{fig:Chart3}
+\end{figure}
+
+
+
 \end{document}
+ 

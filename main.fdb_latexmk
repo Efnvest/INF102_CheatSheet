@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1731930538.80983 "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" "main.pdf" "main" 1731930539.12922 0
-  "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" 1731930538.65105 7419 3aed759fde5a76bb0f47448071586f9e ""
+["pdflatex"] 1731962823.19161 "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" "main.pdf" "main" 1731962823.6313 0
+  "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" 1731962822.68448 8212 8cc510afe3041a8d3d581ef73f132a5d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -55,9 +55,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1730747039.78888 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730747010 8221424 9091dea089a8dc22063c4770e2a0e3cf ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1731930539.09411 2534 72039a0d396dc1d9d874436e2886b8ae "pdflatex"
-  "main.tex" 1731930538.65105 7419 3aed759fde5a76bb0f47448071586f9e ""
-  "main.toc" 1731930539.09454 1471 5376303ac24236e56d344653e74db25a "pdflatex"
+  "Images/ArraySortAlg.png" 1731961860.61396 96808 b7146cb084ccbe804f9a3b32107d48c9 ""
+  "Images/BigO_Chart.png" 1731961860.63422 60592 c5f571cc9c305d6a1f09c81cf15c4629 ""
+  "Images/DataStrucOpt.png" 1731961860.63032 144285 d450d465621fb6c7b5ff7a1ce9b17fa0 ""
+  "main.aux" 1731962823.59608 2745 8f98026f8eeae4ebfee0689c14b888d2 "pdflatex"
+  "main.tex" 1731962822.68448 8212 8cc510afe3041a8d3d581ef73f132a5d ""
+  "main.toc" 1731962823.59673 1516 d9e46b00905a4573564061cc9d8dce29 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
