@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1731685672.06575 "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" "main.pdf" "main" 1731685672.38269 0
-  "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" 1731685671.76572 7020 b86ff0c185567a84094840c286b34b72 ""
+["pdflatex"] 1731930538.80983 "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" "main.pdf" "main" 1731930539.12922 0
+  "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" 1731930538.65105 7419 3aed759fde5a76bb0f47448071586f9e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -55,9 +55,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1730747039.78888 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730747010 8221424 9091dea089a8dc22063c4770e2a0e3cf ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1731685672.34788 2428 d5f3d7ea7eda98f51fa7c92a40a05d5a "pdflatex"
-  "main.tex" 1731685671.76572 7020 b86ff0c185567a84094840c286b34b72 ""
-  "main.toc" 1731685672.34831 1406 400aad3440117d0c7eb2aa73b6fb7ae4 "pdflatex"
+  "main.aux" 1731930539.09411 2534 72039a0d396dc1d9d874436e2886b8ae "pdflatex"
+  "main.tex" 1731930538.65105 7419 3aed759fde5a76bb0f47448071586f9e ""
+  "main.toc" 1731930539.09454 1471 5376303ac24236e56d344653e74db25a "pdflatex"
   (generated)
   "main.aux"
   "main.log"

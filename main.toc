@@ -6,11 +6,12 @@
 \contentsline {subsection}{\numberline {1.5}Merge sort}{2}{}%
 \contentsline {subsection}{\numberline {1.6}Bucket sort}{2}{}%
 \contentsline {subsection}{\numberline {1.7}Radix sort}{2}{}%
-\contentsline {section}{\numberline {2}ArrayList vs. LinkedList}{2}{}%
-\contentsline {section}{\numberline {3}ArrayList vs. LinkedList (Queue/Stack)}{2}{}%
+\contentsline {section}{\numberline {2}ArrayList vs. LinkedList}{3}{}%
+\contentsline {section}{\numberline {3}ArrayList vs. LinkedList (Queue/Stack)}{3}{}%
 \contentsline {section}{\numberline {4}PriorityQueue}{3}{}%
-\contentsline {subsection}{\numberline {4.1}PriorityQueue - SortedList}{3}{}%
-\contentsline {subsection}{\numberline {4.2}PriorityQueue - LinkedList}{3}{}%
+\contentsline {subsection}{\numberline {4.1}PriorityQueue}{3}{}%
+\contentsline {subsection}{\numberline {4.2}PriorityQueue - SortedList}{3}{}%
+\contentsline {subsection}{\numberline {4.3}PriorityQueue - LinkedList}{3}{}%
 \contentsline {section}{\numberline {5}HashSet vs. TreeSet}{4}{}%
 \contentsline {section}{\numberline {6}Heap runtime}{4}{}%
 \contentsline {section}{\numberline {7}Graph Datastructures}{4}{}%
