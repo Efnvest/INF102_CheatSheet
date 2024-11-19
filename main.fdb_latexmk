@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732027039.84153 "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" "main.pdf" "main" 1732027040.32009 0
-  "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" 1732027039.141 9003 a57f1a3d0c3017ca3ca2be76b4bcdf4d ""
+["pdflatex"] 1732028108.27248 "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" "main.pdf" "main" 1732028108.72419 0
+  "/Users/eriknyhuus/1_Projects/INF102_CheatSheet/main.tex" 1732028108.11007 9361 50ba7a97b7f646d54746feaa710a17d5 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -59,9 +59,9 @@
   "Images/BigO_Chart.png" 1731961860.63422 60592 c5f571cc9c305d6a1f09c81cf15c4629 ""
   "Images/DataStrucOpt.png" 1731961860.63032 144285 d450d465621fb6c7b5ff7a1ce9b17fa0 ""
   "Images/Heap.png" 1732009861.94248 122837 902c38d769404e55b0a37b3820a2b0e5 ""
-  "main.aux" 1732027040.28329 2785 3ea375bd7d150c6417f6f57f8b555f3c "pdflatex"
-  "main.tex" 1732027039.141 9003 a57f1a3d0c3017ca3ca2be76b4bcdf4d ""
-  "main.toc" 1732027040.28399 1516 76006eaf45a3756543ad6b86e4aa61ca "pdflatex"
+  "main.aux" 1732028108.68877 2785 3ea375bd7d150c6417f6f57f8b555f3c "pdflatex"
+  "main.tex" 1732028108.11007 9361 50ba7a97b7f646d54746feaa710a17d5 ""
+  "main.toc" 1732028108.68925 1516 76006eaf45a3756543ad6b86e4aa61ca "pdflatex"
   (generated)
   "main.aux"
   "main.log"

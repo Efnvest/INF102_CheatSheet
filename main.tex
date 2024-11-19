@@ -37,15 +37,18 @@
 Time Complexity = $O(n^2)$\\
 Sorts an array by repeatedly selecting the smallest or largest element from the unsorted portion
 and swapping it with the first unsorted element. Continues until list is sorted.
+Two pointers one at the first in the unsorted protion and one iterating through list to find the next smallest or largets element.
 \subsection{Insertion sort}
 Time Complexity = $O(n^2)$\\
 Simple sorting algorithm that works by iteratively inserting each element of an unsorted list into its correct 
 position in a sorted portion of the list. The same algorithm you use when sorting playing cards. 
 You pick a card and insert it into the correct relative position. 
+When you find a pair that is unorder, swap them and continue swapping the unsorted elements through the sorted part of the array until it is in the right space. 
 \subsection{Bubble sort}
 Time Complexity = $O(n^2)$\\
-Works by repeatedly swapping the adjacent elements if they are in the wrong order. Continues 
-this process until it has a pass with know swaps.
+Works by repeatedly swapping the adjacent elements if they are in the wrong order. 
+Each pass lokking ofr two elements that are in the wrong order. 
+Continues this process until it has a pass with know swaps.
 \subsection{Quick sort}
 Worst Case = $O(n^2)$ Occures with poor pivot.\\ 
 Average Case = $\theta(nlog(n))$\\
