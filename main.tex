@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{blindtext}
 \usepackage{titlesec}
+\usepackage{listings}
 
 \setlength{\parindent}{0in}
 \setlength{\oddsidemargin}{0in}
@@ -178,8 +179,6 @@ T removeMin() & O(n) \\
 \end{tabular}
 \end{table}
 
-\newpage
-
 
 \section{HashSet vs. TreeSet}
 \begin{table}[!ht]
@@ -301,7 +300,6 @@ addEdge & O(degree) \\
 \end{tabular}
 \end{table}
 
-\newpage
 
 \subsection{Adjacency Matrix}
 \begin{table}[!ht]
@@ -355,7 +353,77 @@ Union-Find  && \( O(m \log n)^* \) \\
 \caption{Summary of Graph Algorithms}
 \end{table}
 
+\section{Comparable and Comparator}
+\textbf{Comparable:}
+A comparable object is capable of comparing itself with another object.
 
+\textbf{Comparator:}
+A comparator object is capable of comparing two different objects. The class is not comparing its instances, but some other class’s instances.
+
+\begin{lstlisting}[language=java]
+  class Pair implements Comparable<Pair> {
+    String x;
+    int y;
+    public Pair(String x, int y)
+    {
+        this.x = x;
+        this.y = y;
+    }
+    public String toString()
+    {
+        return "(" + x + "," + y + ")";
+    }
+    @Override public int compareTo(Pair a)
+    {
+        // if the string are not equal
+        if (this.x.compareTo(a.x) != 0) {
+            return this.x.compareTo(a.x);
+        }
+        else {
+            // we compare int values
+            // if the strings are equal
+            return this.y - a.y;
+        }
+    }
+\end{lstlisting}
+
+\begin{lstlisting}[language=java]
+  class Student {
+    // Attributes of a student
+    int rollno;
+    String name, address;
+    // Constructor
+    public Student(int rollno, String name, String address)
+    {
+        // This keyword refers to current instance itself
+        this.rollno = rollno;
+        this.name = name;
+        this.address = address;
+    }
+    // Method of Student class
+    // To print student details in main()
+    public String toString()
+    {
+        // Returning attributes of Student
+        return this.rollno + " " + this.name + " "
+            + this.address;
+    }
+}
+
+// Class 2
+// Helper class implementing Comparator interface
+class Sortbyroll implements Comparator<Student> {
+    // Method
+    // Sorting in ascending order of roll number
+    public int compare(Student a, Student b)
+    {
+        return a.rollno - b.rollno;
+    }
+}
+\end{lstlisting}
+
+
+\newpage
 
 \section{Images}
 

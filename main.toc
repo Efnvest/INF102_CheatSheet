@@ -12,12 +12,13 @@
 \contentsline {subsection}{\numberline {4.1}PriorityQueue}{3}{}%
 \contentsline {subsection}{\numberline {4.2}PriorityQueue - SortedList}{3}{}%
 \contentsline {subsection}{\numberline {4.3}PriorityQueue - LinkedList}{4}{}%
-\contentsline {section}{\numberline {5}HashSet vs. TreeSet}{5}{}%
-\contentsline {section}{\numberline {6}Heap}{5}{}%
-\contentsline {section}{\numberline {7}Graph Datastructures}{5}{}%
-\contentsline {subsection}{\numberline {7.1}EdgeList}{5}{}%
+\contentsline {section}{\numberline {5}HashSet vs. TreeSet}{4}{}%
+\contentsline {section}{\numberline {6}Heap}{4}{}%
+\contentsline {section}{\numberline {7}Graph Datastructures}{4}{}%
+\contentsline {subsection}{\numberline {7.1}EdgeList}{4}{}%
 \contentsline {subsection}{\numberline {7.2}Adjacency Set}{5}{}%
 \contentsline {subsection}{\numberline {7.3}Adjacency List}{5}{}%
-\contentsline {subsection}{\numberline {7.4}Adjacency Matrix}{6}{}%
-\contentsline {section}{\numberline {8}Summary of Graph Algorithms}{6}{}%
-\contentsline {section}{\numberline {9}Images}{6}{}%
+\contentsline {subsection}{\numberline {7.4}Adjacency Matrix}{5}{}%
+\contentsline {section}{\numberline {8}Summary of Graph Algorithms}{5}{}%
+\contentsline {section}{\numberline {9}Comparable and Comparator}{6}{}%
+\contentsline {section}{\numberline {10}Images}{8}{}%
