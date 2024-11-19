@@ -62,7 +62,8 @@ Average Case = $(nlog(n))$\\
 Works if you have repeated elements in a list. Adds elements into different groups based on size. Sort each bucket on it own afterwards. 
 
 \subsection{Radix sort}
-
+Rather than comparing elements directly, Radix Sort distributes the elements into buckets based on each digit’s value. 
+By repeatedly sorting the elements by their significant digits, from the least significant to the most significant.
 
 \newpage
 
@@ -88,6 +89,8 @@ indexOf(obj) & O(n) & O(n) \\
 get(int i) & O(1) & O(n) \\
 \hline
 set(int i, E e) & O(1) & O(n) \\
+\hline
+addFirst() & O(n) & O(1) \\
 \hline
 \end{tabular}
 \end{table}
@@ -201,6 +204,9 @@ findMax & O(n) & O(log(n))\\
 
 
 \section{Heap}
+In a heap, the parent of a node $k$ has the position $k/2$, and the two children in position $2k$ and $2k+1$.
+A binary heap is a set of nodes with keys arranged in a complete heap-ordered binary tree, represented in level order in an array (not using the first entry).
+We can travers the heap with simple arithmerics, to move up set $k$ in the $array[k]$, to $k/2$. Or $2k+1$ and $2k$ to move down the binary tree. 
 
 \begin{table}[!ht]
 \centering
@@ -349,6 +355,13 @@ Union-Find  && \( O(m \log n)^* \) \\
 
 
 \section{Images}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{Images/Heap.png}
+  \label{fig:Heap}
+\end{figure}
+
 \begin{figure}[!ht]
   \includegraphics[width=\linewidth]{Images/BigO_Chart.png}
   \label{fig:Chart}
